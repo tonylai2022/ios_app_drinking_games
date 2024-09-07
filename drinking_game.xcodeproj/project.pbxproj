@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3B16672BE55B2200D31149 /* CardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B16662BE55B2200D31149 /* CardGameView.swift */; };
+		9F3B16692BE6095300D31149 /* RingOfFireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B16682BE6095300D31149 /* RingOfFireView.swift */; };
+		9FA407802BE4B68100342F35 /* drinking_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4077F2BE4B68100342F35 /* drinking_gameApp.swift */; };
+		9FA407822BE4B68100342F35 /* DiceGameOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA407812BE4B68100342F35 /* DiceGameOneView.swift */; };
+		9FA407842BE4B68400342F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA407832BE4B68400342F35 /* Assets.xcassets */; };
+		9FA407872BE4B68400342F35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA407862BE4B68400342F35 /* Preview Assets.xcassets */; };
+		9FA407912BE4B68400342F35 /* drinking_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA407902BE4B68400342F35 /* drinking_gameTests.swift */; };
+		9FA4079B2BE4B68400342F35 /* drinking_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4079A2BE4B68400342F35 /* drinking_gameUITests.swift */; };
+		9FA4079D2BE4B68400342F35 /* drinking_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4079C2BE4B68400342F35 /* drinking_gameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FA4078D2BE4B68400342F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FA407742BE4B68100342F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA4077B2BE4B68100342F35;
+			remoteInfo = drinking_game;
+		};
+		9FA407972BE4B68400342F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FA407742BE4B68100342F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA4077B2BE4B68100342F35;
+			remoteInfo = drinking_game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F3B16662BE55B2200D31149 /* CardGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameView.swift; sourceTree = "<group>"; };
+		9F3B16682BE6095300D31149 /* RingOfFireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingOfFireView.swift; sourceTree = "<group>"; };
+		9FA4077C2BE4B68100342F35 /* drinking_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinking_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA4077F2BE4B68100342F35 /* drinking_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinking_gameApp.swift; sourceTree = "<group>"; };
+		9FA407812BE4B68100342F35 /* DiceGameOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGameOneView.swift; sourceTree = "<group>"; };
+		9FA407832BE4B68400342F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FA407862BE4B68400342F35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FA4078C2BE4B68400342F35 /* drinking_gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drinking_gameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA407902BE4B68400342F35 /* drinking_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinking_gameTests.swift; sourceTree = "<group>"; };
+		9FA407962BE4B68400342F35 /* drinking_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drinking_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA4079A2BE4B68400342F35 /* drinking_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinking_gameUITests.swift; sourceTree = "<group>"; };
+		9FA4079C2BE4B68400342F35 /* drinking_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinking_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FA407792BE4B68100342F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA407892BE4B68400342F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA407932BE4B68400342F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FA407732BE4B68100342F35 = {
+			isa = PBXGroup;
+			children = (
+				9FA4077E2BE4B68100342F35 /* drinking_game */,
+				9FA4078F2BE4B68400342F35 /* drinking_gameTests */,
+				9FA407992BE4B68400342F35 /* drinking_gameUITests */,
+				9FA4077D2BE4B68100342F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA4077D2BE4B68100342F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FA4077C2BE4B68100342F35 /* drinking_game.app */,
+				9FA4078C2BE4B68400342F35 /* drinking_gameTests.xctest */,
+				9FA407962BE4B68400342F35 /* drinking_gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FA4077E2BE4B68100342F35 /* drinking_game */ = {
+			isa = PBXGroup;
+			children = (
+				9FA4077F2BE4B68100342F35 /* drinking_gameApp.swift */,
+				9FA407812BE4B68100342F35 /* DiceGameOneView.swift */,
+				9F3B16662BE55B2200D31149 /* CardGameView.swift */,
+				9F3B16682BE6095300D31149 /* RingOfFireView.swift */,
+				9FA407832BE4B68400342F35 /* Assets.xcassets */,
+				9FA407852BE4B68400342F35 /* Preview Content */,
+			);
+			path = drinking_game;
+			sourceTree = "<group>";
+		};
+		9FA407852BE4B68400342F35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FA407862BE4B68400342F35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FA4078F2BE4B68400342F35 /* drinking_gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FA407902BE4B68400342F35 /* drinking_gameTests.swift */,
+			);
+			path = drinking_gameTests;
+			sourceTree = "<group>";
+		};
+		9FA407992BE4B68400342F35 /* drinking_gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FA4079A2BE4B68400342F35 /* drinking_gameUITests.swift */,
+				9FA4079C2BE4B68400342F35 /* drinking_gameUITestsLaunchTests.swift */,
+			);
+			path = drinking_gameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FA4077B2BE4B68100342F35 /* drinking_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA407A02BE4B68400342F35 /* Build configuration list for PBXNativeTarget "drinking_game" */;
+			buildPhases = (
+				9FA407782BE4B68100342F35 /* Sources */,
+				9FA407792BE4B68100342F35 /* Frameworks */,
+				9FA4077A2BE4B68100342F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = drinking_game;
+			productName = drinking_game;
+			productReference = 9FA4077C2BE4B68100342F35 /* drinking_game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FA4078B2BE4B68400342F35 /* drinking_gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA407A32BE4B68400342F35 /* Build configuration list for PBXNativeTarget "drinking_gameTests" */;
+			buildPhases = (
+				9FA407882BE4B68400342F35 /* Sources */,
+				9FA407892BE4B68400342F35 /* Frameworks */,
+				9FA4078A2BE4B68400342F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FA4078E2BE4B68400342F35 /* PBXTargetDependency */,
+			);
+			name = drinking_gameTests;
+			productName = drinking_gameTests;
+			productReference = 9FA4078C2BE4B68400342F35 /* drinking_gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FA407952BE4B68400342F35 /* drinking_gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA407A62BE4B68400342F35 /* Build configuration list for PBXNativeTarget "drinking_gameUITests" */;
+			buildPhases = (
+				9FA407922BE4B68400342F35 /* Sources */,
+				9FA407932BE4B68400342F35 /* Frameworks */,
+				9FA407942BE4B68400342F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FA407982BE4B68400342F35 /* PBXTargetDependency */,
+			);
+			name = drinking_gameUITests;
+			productName = drinking_gameUITests;
+			productReference = 9FA407962BE4B68400342F35 /* drinking_gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FA407742BE4B68100342F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9FA4077B2BE4B68100342F35 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9FA4078B2BE4B68400342F35 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9FA4077B2BE4B68100342F35;
+					};
+					9FA407952BE4B68400342F35 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9FA4077B2BE4B68100342F35;
+					};
+				};
+			};
+			buildConfigurationList = 9FA407772BE4B68100342F35 /* Build configuration list for PBXProject "drinking_game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FA407732BE4B68100342F35;
+			productRefGroup = 9FA4077D2BE4B68100342F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA4077B2BE4B68100342F35 /* drinking_game */,
+				9FA4078B2BE4B68400342F35 /* drinking_gameTests */,
+				9FA407952BE4B68400342F35 /* drinking_gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FA4077A2BE4B68100342F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA407872BE4B68400342F35 /* Preview Assets.xcassets in Resources */,
+				9FA407842BE4B68400342F35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA4078A2BE4B68400342F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA407942BE4B68400342F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FA407782BE4B68100342F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3B16672BE55B2200D31149 /* CardGameView.swift in Sources */,
+				9F3B16692BE6095300D31149 /* RingOfFireView.swift in Sources */,
+				9FA407822BE4B68100342F35 /* DiceGameOneView.swift in Sources */,
+				9FA407802BE4B68100342F35 /* drinking_gameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA407882BE4B68400342F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA407912BE4B68400342F35 /* drinking_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA407922BE4B68400342F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA4079D2BE4B68400342F35 /* drinking_gameUITestsLaunchTests.swift in Sources */,
+				9FA4079B2BE4B68400342F35 /* drinking_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FA4078E2BE4B68400342F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FA4077B2BE4B68100342F35 /* drinking_game */;
+			targetProxy = 9FA4078D2BE4B68400342F35 /* PBXContainerItemProxy */;
+		};
+		9FA407982BE4B68400342F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FA4077B2BE4B68100342F35 /* drinking_game */;
+			targetProxy = 9FA407972BE4B68400342F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9FA4079E2BE4B68400342F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FA4079F2BE4B68400342F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FA407A12BE4B68400342F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"drinking_game/Preview Content\"";
+				DEVELOPMENT_TEAM = 8626HTPQ7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonyGame.drinking-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FA407A22BE4B68400342F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"drinking_game/Preview Content\"";
+				DEVELOPMENT_TEAM = 8626HTPQ7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonyGame.drinking-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FA407A42BE4B68400342F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8626HTPQ7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonyGame.drinking-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drinking_game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/drinking_game";
+			};
+			name = Debug;
+		};
+		9FA407A52BE4B68400342F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8626HTPQ7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonyGame.drinking-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/drinking_game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/drinking_game";
+			};
+			name = Release;
+		};
+		9FA407A72BE4B68400342F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8626HTPQ7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonyGame.drinking-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = drinking_game;
+			};
+			name = Debug;
+		};
+		9FA407A82BE4B68400342F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8626HTPQ7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TonyGame.drinking-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = drinking_game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FA407772BE4B68100342F35 /* Build configuration list for PBXProject "drinking_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA4079E2BE4B68400342F35 /* Debug */,
+				9FA4079F2BE4B68400342F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA407A02BE4B68400342F35 /* Build configuration list for PBXNativeTarget "drinking_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA407A12BE4B68400342F35 /* Debug */,
+				9FA407A22BE4B68400342F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA407A32BE4B68400342F35 /* Build configuration list for PBXNativeTarget "drinking_gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA407A42BE4B68400342F35 /* Debug */,
+				9FA407A52BE4B68400342F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA407A62BE4B68400342F35 /* Build configuration list for PBXNativeTarget "drinking_gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA407A72BE4B68400342F35 /* Debug */,
+				9FA407A82BE4B68400342F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FA407742BE4B68100342F35 /* Project object */;
+}
