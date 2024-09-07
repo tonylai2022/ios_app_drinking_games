@@ -19,6 +19,8 @@ In the Dice Roll Game, users can adjust the number of dice to roll (up to 6 dice
   - Tap or shake the device to roll the dice.
 - **Goal**: No strict rules apply; simply enjoy rolling dice and making up your own rules with friends!
 
+![Dice Roll Game](./dice.png)
+
 ### 2. Ring of Fire
 
 Ring of Fire is a popular card-based drinking game where each card drawn triggers a specific action. The game continues until all 52 cards are drawn.
@@ -28,6 +30,8 @@ Ring of Fire is a popular card-based drinking game where each card drawn trigger
   - For example, drawing a Queen makes the player the "Question Master."
   - Tap `Reset Game` to shuffle the cards and restart.
 - **Goal**: Follow the game's prompts and have fun as each card results in different actions.
+
+![Ring of Fire](./ringoffire.png)
 
 ### 3. Penalty Card Game
 
@@ -41,6 +45,8 @@ The Penalty Card Game is a quick and simple game of chance that challenges playe
   - If the middle card is equal to either the left or right card, the player loses double.
   - If the middle card does not lie between or equal the left or right card, the player loses single.
 - **Goal**: Predict whether the middle card will lie between or match the other two cards.
+- 
+![Penalty Card Game](./penalty.png)
 
 ## Installation
 
